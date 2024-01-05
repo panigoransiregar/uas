@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+#kontak {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#kontak h2 {
+    color: #343a40;
+}
+
+#kontak p {
+    color: #6c757d;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website E-Learning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="kontak.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="index.html"><strong>e-Learning</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><strong>Beranda</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html"><strong>Kontak</strong></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Cari">
+            <button class="btn btn-outline-light" type="submit">Cari</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="learning.jpg" class="d-block w-100 img-fluid" alt="1">
+        </div>
+        <div class="carousel-item">
+          <img src="learning.jpg" class="d-block w-100 img-fluid" alt="2">
+        </div>
+        <div class="carousel-item">
+          <img src="learning.jpg" class="d-block w-100 img-fluid" alt="3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="kontak" class="container mt-5">
+      <h2>Kontak Kami</h2>
+      <p>Silakan hubungi kami jika Anda memiliki pertanyaan atau masukan</p>
+
+      <div class="row">
+        <div class="col-md-5">
+          <h4>Informasi Kontak</h4>
+          <p>Email: siregarpanigoran82@gmail.com</p>
+          <p>Telepon: +62 812 3456 7890</p>
+          <p>Alamat: Jl. Yos Sudarso KM.8 Kota Pekanbaru</p>
+        </div>
+        <div class="col-md-7">
+          <h4>Formulir Hubungi Kami</h4>
+          <form>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Masukkan alamat email Anda">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="4" placeholder="Tuliskan pesan Anda"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3">
+      <div class="container">
+        <p class="mb-0">&copy; 2024 Abdullah Panigoran</p>
+        <div class="social-icons mt-2">
+          <a href="https://www.facebook.com/profile.php?id=100041064653726" class="text-light me-2">
+            <img src="fb.png" alt="Facebook" width="25" height="25"> Facebook
+          </a>
+          <a href="https://www.instagram.com/panigoran__/" class="text-light me-2">
+            <img src="ig.png" alt="Instagram" width="20" height="20"> Instagram
+          </a>
+          <a href="https://github.com/panigoransiregar" class="text-light">
+            <img src="github.png" alt="GitHub" width="20" height="20"> GitHub
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
